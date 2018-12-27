@@ -8,8 +8,8 @@ const {
 
 app.on("ready", () => {
 	let mainWindow = new BrowserWindow({
-		width: 900,
-		height: 500,
+		width: 0,
+		height: 0,
 		resizeable: false,
 		frame: false
 	});
